@@ -71,6 +71,27 @@
         animation: fadeIn 2s forwards 0.5s;
       }
 
+      .job-button {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #ffffffdd;
+        color: #007f7f;
+        padding: 10px 16px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.95rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease, transform 0.2s ease;
+        z-index: 999;
+      }
+
+      .job-button:hover {
+        background: #fff;
+        transform: scale(1.05);
+      }
+
       .countdown {
         font-size: 1.5rem;
         color: #fff;
@@ -139,6 +160,14 @@
     </style>
   </head>
   <body>
+    <a
+      href="https://www.linkedin.com/company/momo-pe-pvt-ltd/jobs/"
+      target="_blank"
+      class="job-button"
+    >
+      See Openings
+    </a>
+
     <div class="container">
       <div class="logo-wrapper">
         <img
